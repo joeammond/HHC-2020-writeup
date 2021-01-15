@@ -1,0 +1,48 @@
+site_name: SANS HHC 2020 writeup
+site_author: Joe Ammond (pugpug)
+copyright: Joe Ammond - <a href="http://twitter.com/joeammond">@joeammond</a>
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - footnotes
+  - attr_list
+  - admonition
+  - toc:
+      permalink: "#"
+theme:
+  name: material
+  palette:
+plugins:
+  - search
+  - pdf-export:
+      enabled_if_env: ENABLE_PDF_EXPORT
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/joeammond
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/joeammond/
+extra_css:
+  - css/print.css
+nav:
+- Home: 'http://ammond.org'
+- Welcome: 'index.md'
+- Objectives:
+  - Uncover Santa's Gift List: 'objectives/1.md'
+  - Investigate S3 Bucket: 'objectives/2.md'
+  - Point-of-Sale Password Recovery: 'objectives/3.md'
+  - Operate the Santavator: 'objectives/4.md'
+  - Open HID Lock: 'objectives/5.md'
+  - Splunk Challenge: 'objectives/6.md'
+  - Solve the Sleigh's CAN-D-BUS Problem: 'objectives/7.md'
+  - Broken Tag Generator: 'objectives/8.md'
+  - ARP Shenanigans: 'objectives/9.md'
+  - Defeat Fingerprint Sensor: 'objectives/10.md'
+  - Naughty/Nice List with Blockchain Investigation Part 1: 'objectives/11a.md'
+  - Naughty/Nice List with Blockchain Investigation Part 2: 'objectives/11b.md'
+- Fun stuff:
+  - Santa's portrait poem: 'fun/portrait.md'
+  - The Secret Garden: 'fun/secret-garden.md'
+  - The Nail: 'fun/nail.md'
+- Conclusion: 'conclusion.md'
