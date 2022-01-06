@@ -1,6 +1,6 @@
 site_name: SANS HHC 2020 writeup
 site_author: Joe Ammond (pugpug)
-copyright: Joe Ammond - <a href="http://twitter.com/joeammond">@joeammond</a>
+copyright: Joe Ammond - <a href="https://twitter.com/joeammond">@joeammond</a>
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
@@ -23,10 +23,12 @@ extra:
       link: https://twitter.com/joeammond
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/joeammond/
+    - icon: fontawesome/brands/github
+      link: https://github.com/joeammond
 extra_css:
   - css/print.css
 nav:
-- Home: 'http://ammond.org'
+- Home: 'https://ammond.org'
 - Welcome: 'index.md'
 - Objectives:
   - Uncover Santa's Gift List: 'objectives/1.md'
